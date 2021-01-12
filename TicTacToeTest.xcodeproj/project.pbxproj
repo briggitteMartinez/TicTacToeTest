@@ -15,6 +15,7 @@
 		B30E8D352599E76B00CF1A20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B30E8D332599E76B00CF1A20 /* LaunchScreen.storyboard */; };
 		B30E8D402599E76B00CF1A20 /* TicTacToeTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30E8D3F2599E76B00CF1A20 /* TicTacToeTestTests.swift */; };
 		B30E8D4B2599E76B00CF1A20 /* TicTacToeTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30E8D4A2599E76B00CF1A20 /* TicTacToeTestUITests.swift */; };
+		B33BC33025AB5F110031521E /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33BC32F25AB5F110031521E /* StartViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B30E8D462599E76B00CF1A20 /* TicTacToeTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTacToeTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B30E8D4A2599E76B00CF1A20 /* TicTacToeTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeTestUITests.swift; sourceTree = "<group>"; };
 		B30E8D4C2599E76B00CF1A20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B33BC32F25AB5F110031521E /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				B30E8D2A2599E76800CF1A20 /* SceneDelegate.swift */,
 				B30E8D2C2599E76800CF1A20 /* ViewController.swift */,
 				B30E8D2E2599E76800CF1A20 /* Main.storyboard */,
+				B33BC32F25AB5F110031521E /* StartViewController.swift */,
 				B30E8D312599E76B00CF1A20 /* Assets.xcassets */,
 				B30E8D332599E76B00CF1A20 /* LaunchScreen.storyboard */,
 				B30E8D362599E76B00CF1A20 /* Info.plist */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B30E8D2D2599E76800CF1A20 /* ViewController.swift in Sources */,
+				B33BC33025AB5F110031521E /* StartViewController.swift in Sources */,
 				B30E8D292599E76800CF1A20 /* AppDelegate.swift in Sources */,
 				B30E8D2B2599E76800CF1A20 /* SceneDelegate.swift in Sources */,
 			);
