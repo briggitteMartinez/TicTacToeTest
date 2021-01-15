@@ -72,7 +72,9 @@ class ViewController: UIViewController {
             }
             //if there is no 0 left in board(gameState) and no winner
             if gameIsActive == false {
-                label.text = "IT WAS A DRAW"
+                label.text = "IT´S A TIE"
+                winningImage.isHidden = false
+                winningImage.image = #imageLiteral(resourceName: "tie")
                 label.isHidden = false
                 playAgainButton.isHidden = false
                 
