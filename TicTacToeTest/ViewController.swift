@@ -39,7 +39,7 @@ class ViewController: UIViewController {
                 activePlayer = 1
             }
         }
-        for combination in winningCombo{ // check if there is a winner, compare combination loop(winningcombo) with gameState position
+        for combination in winningCombo{ // check if there is a winner, check if there are the same numbers in each of the winningcombo arrays positions in gamestate
             if gameState[combination[0]] != 0 && gameState[combination[0]] == gameState[combination[1]] && gameState[combination[1]] == gameState[combination[2]]{
                 print(combination)
                 gameIsActive = false // game is over
